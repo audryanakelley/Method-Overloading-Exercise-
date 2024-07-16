@@ -32,13 +32,14 @@ namespace MethodOverloading
                 return sum.ToString();
             }
 
-            return "done";
+            
         }
         static void Main(string[] args)
         {
            Console.WriteLine(Add(2, 2)); Console.WriteLine(Add(4.0m, 8.0m)); 
            int x = 32;
            int y = 38;
+           Console.WriteLine(Add( 6, 24, false));
         }
     }
 }
